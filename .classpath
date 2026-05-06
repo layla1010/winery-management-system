@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/lib/jasperLib/commons-beanutils-1.9.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/curvesapi-1.07.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jackson-annotations-2.17.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jackson-core-2.17.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jackson-databind-2.17.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jackson-dataformat-xml-2.17.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jasperreports-6.21.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/poi-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/poi-5.4.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/poi-ooxml-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/poi-ooxml-full-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/stax2-api-4.2.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/woodstox-core-7.1.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jasperLib/xmlbeans-5.1.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/hsqldb-2.5.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jackcess-3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/ucanaccess-5.0.1.jar"/>
+	<classpathentry kind="lib" path="com.jgoodies.common_1.8.1.v20240327-0800.jar"/>
+	<classpathentry kind="lib" path="com.jgoodies.forms_1.9.0.v20240327-0800.jar"/>
+	<classpathentry kind="lib" path="com.miglayout.core_11.4.2.jar"/>
+	<classpathentry kind="lib" path="com.miglayout.swing_11.4.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

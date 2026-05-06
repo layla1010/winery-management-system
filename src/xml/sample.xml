@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+    <TblManufacturer>
+        <ManufacturerId>1</ManufacturerId>
+        <FullName>Vine Hills</FullName>
+        <Address>123 Winery Lane, Napa Valley, CA</Address>
+        <PhoneNumber>+1-555-123-4567</PhoneNumber>
+        <Email>contact@vineyardhills.com</Email>
+    </TblManufacturer>
+    
+    <TblWine>
+        <WineName>Cabernet Sauvignon Reserve</WineName>
+        <ProductionYear>2020</ProductionYear>
+        <Description>Rich and full-bodied red wine with hints of blackberry and oak.</Description>
+        <PricePerBottle>35.99</PricePerBottle>
+        <SweetnessLevel>dry</SweetnessLevel>
+        <CatalogNumber>101</CatalogNumber>
+        <ManufacturerId>1</ManufacturerId>
+        <Photo>Images/Wine1.png</Photo>
+    </TblWine>
+    
+    <TblWine>
+        <WineName>Chardonnay Classic</WineName>
+        <ProductionYear>2021</ProductionYear>
+        <Description>Light and crisp white wine with a touch of citrus.</Description>
+        <PricePerBottle>25.50</PricePerBottle>
+        <SweetnessLevel>sweet</SweetnessLevel>
+        <CatalogNumber>102</CatalogNumber>
+        <ManufacturerId>1</ManufacturerId>
+ <Photo>Images/Wine2.png</Photo>
+     </TblWine>
+    
+    <TblManufacturer>
+        <ManufacturerId>2</ManufacturerId>
+        <FullName>Sunny Vineyards</FullName>
+        <Address>456 Sunshine Road, Sonoma County, CA</Address>
+        <PhoneNumber>+1-555-987-6543</PhoneNumber>
+        <Email>info@sunnyvineyards.com</Email>
+    </TblManufacturer>
+    
+    <TblWine>
+        <WineName>Merlot Elegance</WineName>
+        <ProductionYear>2019</ProductionYear>
+        <Description>Elegant red wine with soft tannins and plum flavors.</Description>
+        <PricePerBottle>29.90</PricePerBottle>
+        <SweetnessLevel>semi-sweet</SweetnessLevel>
+        <CatalogNumber>201</CatalogNumber>
+        <ManufacturerId>2</ManufacturerId>
+         <Photo>Images/Wine3.png</Photo>
+    </TblWine>
+    
+    <TblWine>
+        <WineName>Sauvignon Blanc Fresh</WineName>
+        <ProductionYear>2022</ProductionYear>
+        <Description>Fresh and aromatic white wine with tropical fruit notes.</Description>
+        <PricePerBottle>22.75</PricePerBottle>
+        <SweetnessLevel>semi-dry</SweetnessLevel>
+        <CatalogNumber>202</CatalogNumber>
+        <ManufacturerId>2</ManufacturerId>
+    <Photo>Images/Wine4.png</Photo>
+    </TblWine>
+    
+    <TblManufacturer>
+        <ManufacturerId>3</ManufacturerId>
+        <FullName>Mountain Cellars</FullName>
+        <Address>789 Summit Trail, Willamette Valley, OR</Address>
+        <PhoneNumber>+1-555-567-8901</PhoneNumber>
+        <Email>sales@mountaincellars.com</Email>
+    </TblManufacturer>
+    
+    <TblWine>
+        <WineName>Pinot Noir Delight</WineName>
+        <ProductionYear>2018</ProductionYear>
+        <Description>Delightful red wine with cherry and spice undertones.</Description>
+        <PricePerBottle>32.80</PricePerBottle>
+        <SweetnessLevel>dry</SweetnessLevel>
+        <CatalogNumber>301</CatalogNumber>
+        <ManufacturerId>3</ManufacturerId>
+ <Photo>Images/Wine5.png</Photo>
+    </TblWine>
+    
+    <TblWine>
+        <WineName>Riesling Harmony</WineName>
+        <ProductionYear>2021</ProductionYear>
+        <Description>Sweet white wine with floral aromas and peach flavors.</Description>
+        <PricePerBottle>28.40</PricePerBottle>
+        <SweetnessLevel>sweet</SweetnessLevel>
+        <CatalogNumber>302</CatalogNumber>
+        <ManufacturerId>3</ManufacturerId>
+   <Photo>Images/Wine6.png</Photo>
+    </TblWine>
+</Data>

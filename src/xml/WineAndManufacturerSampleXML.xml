@@ -1,0 +1,22 @@
+<GefenData>
+    <Manufacturers>
+        <Manufacturer>
+            <FullName>Galil Winery</FullName>
+            <PhoneNumber>0541234567</PhoneNumber>
+            <Address>Galil Mountain, Israel</Address>
+            <Email>contact@galilwinery.com</Email>
+            <Wines>
+                <Wine>
+                    <WineName>Galil Merlot</WineName>
+                    <ProductionYear>2023</ProductionYear>
+                    <Description>Full-bodied Merlot with hints of berries</Description>
+                    <PricePerBottle>45.90</PricePerBottle>
+                    <SweetnessLevel>semi-dry</SweetnessLevel>
+                    <CatalogNumber>9001</CatalogNumber>
+                    <Photo>galil_merlot.png</Photo>
+                    <WineTypeID>3</WineTypeID>
+                </Wine>
+            </Wines>
+        </Manufacturer>
+    </Manufacturers>
+</GefenData>

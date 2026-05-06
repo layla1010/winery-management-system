@@ -1,0 +1,81 @@
+[ {
+  "inventoryID" : 1,
+  "wineID" : 1,
+  "locationUniqueNumber" : 1,
+  "quantity" : 100
+}, {
+  "inventoryID" : 2,
+  "wineID" : 1,
+  "locationUniqueNumber" : 2,
+  "quantity" : 200
+}, {
+  "inventoryID" : 3,
+  "wineID" : 1,
+  "locationUniqueNumber" : 20,
+  "quantity" : 11
+}, {
+  "inventoryID" : 4,
+  "wineID" : 2,
+  "locationUniqueNumber" : 1,
+  "quantity" : 201
+}, {
+  "inventoryID" : 5,
+  "wineID" : 2,
+  "locationUniqueNumber" : 5,
+  "quantity" : 220
+}, {
+  "inventoryID" : 6,
+  "wineID" : 2,
+  "locationUniqueNumber" : 9,
+  "quantity" : 12
+}, {
+  "inventoryID" : 8,
+  "wineID" : 3,
+  "locationUniqueNumber" : 3,
+  "quantity" : 300
+}, {
+  "inventoryID" : 9,
+  "wineID" : 3,
+  "locationUniqueNumber" : 4,
+  "quantity" : 333
+}, {
+  "inventoryID" : 10,
+  "wineID" : 4,
+  "locationUniqueNumber" : 4,
+  "quantity" : 444
+}, {
+  "inventoryID" : 11,
+  "wineID" : 4,
+  "locationUniqueNumber" : 5,
+  "quantity" : 569
+}, {
+  "inventoryID" : 13,
+  "wineID" : 8,
+  "locationUniqueNumber" : 3,
+  "quantity" : 12
+}, {
+  "inventoryID" : 14,
+  "wineID" : 8,
+  "locationUniqueNumber" : 8,
+  "quantity" : 88
+}, {
+  "inventoryID" : 15,
+  "wineID" : 1,
+  "locationUniqueNumber" : 1,
+  "quantity" : 100
+}, {
+  "inventoryID" : 16,
+  "wineID" : 2,
+  "locationUniqueNumber" : 8,
+  "quantity" : 201
+}, {
+  "inventoryID" : 17,
+  "wineID" : 6,
+  "locationUniqueNumber" : 1,
+  "quantity" : 12
+}, {
+  "inventoryID" : 18,
+  "wineID" : 4,
+  "locationUniqueNumber" : 1,
+  "quantity" : 0
+} ]

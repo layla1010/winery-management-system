@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="WineReport" pageWidth="920" pageHeight="595" orientation="Landscape" columnWidth="880" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3ffe9c0a-e76e-44b1-9210-32ab3f0e2b5c">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<field name="wineId" class="java.lang.Integer"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="productionYear" class="java.lang.Integer"/>
+	<field name="description" class="java.lang.String"/>
+	<field name="pricePerBottle" class="java.lang.Double"/>
+	<field name="sweetnessLevel" class="java.lang.String"/>
+	<field name="catalogNumber" class="java.lang.String"/>
+	<field name="manufacturer" class="java.lang.Integer"/>
+	<field name="wineType" class="java.lang.String"/>
+	<title>
+		<band height="117">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<staticText>
+				<reportElement x="130" y="0" width="610" height="111" uuid="a7548d2a-ee49-4e4d-b18f-7a53bc93b368"/>
+				<textElement textAlignment="Center">
+					<font fontName="David" size="59" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cheers Company]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="80" width="331" height="21" forecolor="#9C0B25" uuid="47183ec0-cacd-4fcb-b63d-30520a7e6d84"/>
+				<textElement>
+					<font fontName="David" size="15"/>
+				</textElement>
+				<text><![CDATA[Wine Recommendation Report]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="82">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="879" height="29" backcolor="rgba(120, 6, 4, 0.6431373)" uuid="33b08295-dd06-4548-9495-7b032cfc10e6"/>
+				<rectangle>
+					<reportElement mode="Opaque" x="140" y="-16" width="620" height="4" backcolor="#A80D0A" uuid="c2560d2d-6967-4b07-8157-845f905a865d"/>
+				</rectangle>
+				<rectangle>
+					<reportElement mode="Opaque" x="1" y="-130" width="800" height="8" backcolor="#A80D0A" uuid="01711c25-78aa-4eba-b160-3e036de41552">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+				</rectangle>
+				<textField pattern="MMMMM dd, yyyy">
+					<reportElement x="30" y="0" width="100" height="30" forecolor="#FFFFFF" uuid="0962fc4a-9115-4ab3-b584-a74a2654a2f8"/>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+				<textField pattern="HH:mm">
+					<reportElement x="132" y="0" width="100" height="30" forecolor="#FFFFFF" uuid="25d7a4b2-7904-4291-8cb9-5c031fc2cfcb"/>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+			<staticText>
+				<reportElement x="0" y="40" width="50" height="30" uuid="1dc8c1f8-695d-4fde-b3ef-7375a81d57a5"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="40" width="120" height="30" uuid="b735c591-8d6f-425f-a3b9-b475ec10310c"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Wine Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="170" y="40" width="60" height="30" uuid="505202ae-2169-42b6-8795-70a20c07fec6"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="40" width="200" height="30" uuid="99c0cc2b-1c67-4022-8714-a728e3498935"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="40" width="80" height="30" uuid="4ceb0510-1aef-4ada-aefc-ac5bb2ef73c7"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="510" y="40" width="100" height="30" uuid="e20a5cc5-1956-45d3-8e1c-ff5c8ac365b7"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sweetness]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="610" y="40" width="100" height="30" uuid="15c73d1b-bd14-4bfe-9ada-2118275571ee"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Catalog #]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="710" y="40" width="92" height="30" uuid="a72a3ec6-77af-4d01-89f5-8867d5b1ff96"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Manufacturer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="802" y="40" width="77" height="30" uuid="351d15ca-1484-4f23-8821-83992346a6fe">
+					<property name="com.jaspersoft.studio.element.name" value="Wine Type"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[WineType]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="60">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="15" width="50" height="30" uuid="60f52743-4595-45c5-84ba-53eac93cc036"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{wineId}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="50" y="15" width="120" height="30" uuid="6098f3f8-7bec-4401-8de3-4eb33b707092"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="170" y="15" width="60" height="30" uuid="a8f35a1e-ec05-4647-9cb9-e5d9047dbc0d"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{productionYear}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement x="430" y="15" width="80" height="30" uuid="69c79e5d-602e-4ccf-9db7-a3e240b4d487"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pricePerBottle}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="510" y="15" width="100" height="30" uuid="884809cb-dc58-4fc6-8ff5-c6be56a8fa41"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sweetnessLevel}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="610" y="15" width="100" height="30" uuid="915f18f7-c038-4497-a286-9ec4be700525"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{catalogNumber}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="710" y="15" width="92" height="30" uuid="b5b2ecad-05da-4e8a-9714-e2a602f002b5"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{manufacturer}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="230" y="15" width="200" height="30" uuid="825cb29b-8b44-49ae-a385-45afb7bfac21"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="801" y="15" width="80" height="30" uuid="532fa6ba-75e2-43f3-a1ea-3083a8ec7c5d"/>
+				<textFieldExpression><![CDATA[$F{wineType}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="62">
+			<textField>
+				<reportElement x="330" y="16" width="100" height="30" uuid="3f77bcfa-31a9-4b3a-a55b-d9dce58ec0a0"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="430" y="16" width="100" height="30" uuid="a593f02e-f95c-4f37-9e0a-94d57642b8ee"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
