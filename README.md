@@ -64,16 +64,16 @@ src/
 ## Screenshots
 
 ### Login Screen
-![Login Screen](screenshots/login-screen.png)
+![Login Screen](screenshot/login-screen.png)
 
 ### Main Dashboard
-![Main Dashboard](screenshots/main-dashboard.png)
+![Main Dashboard](screenshot/main-dashboard.png)
 
 ### Orders Management
-![Orders](screenshots/orders.png)
+![Orders](screenshot/orders.png)
 
 ### Inventory Management
-![Inventory](screenshots/inventory.png)
+![Inventory](screenshot/inventory.png)
 
 ---
 
